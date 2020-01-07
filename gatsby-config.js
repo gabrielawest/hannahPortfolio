@@ -13,6 +13,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `experience-posts`,
+        path: `${__dirname}/content/exp`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-sharp`,
