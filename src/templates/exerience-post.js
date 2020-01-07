@@ -15,7 +15,7 @@ class ExperiencePostTemplate extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.title || post.excerpt}
+          description={post.frontmatter.description || post.excerpt}
         />
         <article>
           <header>
@@ -103,7 +103,7 @@ export const pageQuery = graphql`
         title
         sdate(formatString: "MMMM DD, YYYY")
         fdate(formatString: "MMMM DD, YYYY")
-        body
+        description
       }
     }
   }
