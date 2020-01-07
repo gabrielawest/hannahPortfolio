@@ -14,8 +14,7 @@ collections:
     editor:
      preview: true
     fields:
-      - { label: "Employer", name: "employer", widget: "string" }
+      - { label: "Employer", name: "title", widget: "string" }
       - { label: "Start Date", name: "sdate", widget: "datetime" }
       - { label: "Finish Date", name: "fdate", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
