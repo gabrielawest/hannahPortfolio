@@ -14,8 +14,9 @@ collections:
     editor:
      preview: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "experience-post"}
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "experience-post" }
       - { label: "Employer", name: "title", widget: "string" }
+      - { label: "Category", name: "description", widget: "string" }
       - { label: "Start Date", name: "sdate", widget: "datetime" }
       - { label: "Finish Date", name: "fdate", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
